@@ -1,1 +1,2 @@
-# Better_Twitch_Player
+# Better Twitch Player
+A alternative twitch player
