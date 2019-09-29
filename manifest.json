@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Better Twitch Player Plugin",
+  "description": "an alternative player for Twitch",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+	},
+	
+	"content_scripts": [{
+    "matches": ["https://stackoverflow.com/*"],
+    "run_at": "document_idle",
+		"css": ["sheet.css"],
+    "js": [
+      "embed.js",
+      "jquery-3.4.1.min.js",
+      "main.js"
+    ]
+  }],
+
+  "permissions": [
+   "activeTab",
+   "contentSettings"
+   ]
+}
