@@ -18,5 +18,9 @@
   "homepage": "https://github.com/CasperGroenenberg/BTP#readme",
   "devDependencies": {
     "electron": "^6.0.12"
+  },
+  "dependencies": {
+    "electron-custom-titlebar": "^4.0.2",
+    "electron-titlebar-windows": "^3.0.0"
   }
 }

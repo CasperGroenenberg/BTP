@@ -1,5 +1,5 @@
 require('./embed.js');
-require('./jquery.min.js')
+require('./jquery-3.4.1.min.js')
 
 
 (function($) {
