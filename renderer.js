@@ -1,7 +1,7 @@
-const ElectronTitlebarWindows = require('electron-titlebar-windows');
+// const ElectronTitlebarWindows = require('electron-titlebar-windows');
 
-const titlebar = new ElectronTitlebarWindows({});
-const contextElement = document.querySelector('#titlebarRegion');
-titlebar.appendTo(contextElement);
+// const titlebar = new ElectronTitlebarWindows({});
+// const contextElement = document.querySelector('#titlebarRegion');
+// titlebar.appendTo(contextElement);
 
-console.log('renderer')
+// console.log('renderer')

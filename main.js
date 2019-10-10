@@ -1,6 +1,8 @@
 const { app, BrowserWindow } = require('electron')
 const ElectronTitlebarWindows = require('electron-titlebar-windows');
 
+//TODO
+const  windowManager = require('electron-window-manager');
 
 // const titlebar = new ElectronTitlebarWindows({});
 
@@ -9,12 +11,14 @@ let win
 
 function mainWindow () {
   win = new BrowserWindow({
-    width: 800, 
+    backgroundColor: "#1a1a1a",
+    width: 1000, 
     height: 600,
     webPreferences: {
       nodeIntegration: true
     }
   })
+
 
   win.loadFile('index.html')
   win.webContents.openDevTools()

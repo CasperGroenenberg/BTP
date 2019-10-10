@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "electron-custom-titlebar": "^4.0.2",
-    "electron-titlebar-windows": "^3.0.0"
+    "electron-titlebar-windows": "^3.0.0",
+    "electron-window-manager": "^1.0.6"
   }
 }

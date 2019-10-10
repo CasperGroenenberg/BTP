@@ -1,38 +1,26 @@
-/* * {
-  color: rgb(0, 255, 106) !important;
+body {
+  margin: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-.persistant-player {
-  display: none !important;
-} */
-
-/* .cool-extension .simplebar-content {
-  background-color: red !important;
+#twitch-embed {
+  height: 90%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
- */
-
-.overrider {
-  background-color: #ce1919 !important;
-}
-
-body.dark-theme {
-  background-color: #ce1919 !important;
-}
-
-
-/* 
-.post-text {
-  color: rgb(39, 1, 255);
-} */
-
-
-/* #cool-extension .tw-root--theme-dark body {
-  background-color: #ce1919 !important;
-}
- */
-
 
 #embed-container {
-  background-color: red;
+  height: 100vh;
+  background-color: rgb(29, 29, 29);
 }
 
+#nav {
+  block: inline;
+  width: 100%;
+  height: 20px;
+  padding: 3px;
+  padding-bottom: 5px;
+  background-color: rgb(29, 29, 29);
+}
